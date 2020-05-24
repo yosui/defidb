@@ -1,0 +1,81 @@
+body{
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+    font-family: ubuntu semi-bold regular;
+}
+
+h1,h2,h3,p,a{
+    font-family: ubuntu;
+}
+
+header img{
+ margin: 20px 50px;
+}
+
+
+/* 四角の中 */
+
+#square{
+    position: relative;
+    margin:40px auto;
+    width:80%;
+    height: 275px;
+
+    background-color: #555555;
+}
+
+#square p{
+    font-size: 40px;  
+    font-weight: bold;
+    line-height: 64px;
+
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 64px;
+    margin: 0px;
+
+}
+
+.green{
+    color: #40E0D0;
+}
+
+.red{
+    color: #FF007A;
+}
+
+
+#square img{
+    position: absolute;
+    right: 150px;
+    top: 50px;
+}
+
+/* content */
+#contents h2{
+    padding-bottom: 10px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-bottom: solid 0.5px #FF007A;
+}
+
+#index-list{
+    margin:auto;
+    width: 80%;
+}
+
+.index-card{
+
+}
+
+.index-card a{
+    color: #2B2B2B;
+    padding-left: 20px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    background-color: #FFFFFF;
+    line-height: 40px;
+    border-radius:9px;
+}
